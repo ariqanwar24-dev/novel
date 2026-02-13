@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Novel Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div> 
+
+    <div class="writer-container">
+        <div class="sidebar">
+            <h2 id="typed-title"></h2> 
+            <p class="desc">Tuangkan inspirasimu di sini.</p>
+            
+            <div class="stats">
+                <span id="char-count">0</span> Karakter
+            </div>
+            
+            <button id="btn-download">Simpan ke .txt</button>
+            <button id="btn-hapus" style="background: transparent; border: 1px solid #444; margin-top: 10px;">Hapus Draft</button>
+        </div>
+
+        <div class="main-editor">
+            <textarea id="editor" placeholder="Mulai menulis bab barumu..."></textarea>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> 
+
+    <script src="belajar-js.js"></script> 
+</body>
+</html>
